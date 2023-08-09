@@ -1,0 +1,19 @@
+.background-grey {
+	background-color: #ccc
+}
+
+
+.background-yellow {
+	background-color: #aeefbc
+}
+
+
+.background-green {
+	background-color:  #e6acd5 !important
+}
+
+input[type=radio] {
+      position: relative;
+      margin-top: 12px;
+      margin-left: -30px;
+}
