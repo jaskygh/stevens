@@ -95,8 +95,8 @@ jQuery.fn.extend({
 
 // Clear Inputs - Reload page by pressing 'C'
 document.addEventListener('keydown', function(event) {
-  // Check if the pressed key's code is 67 (C key)
-  if (event.keyCode === 67) {
+  // Check if the pressed key's code is 81 (Q key)
+  if (event.keyCode === 81) {
     location.reload(); // Reload the page
   }
 });
