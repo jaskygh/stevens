@@ -97,6 +97,10 @@ jQuery.fn.extend({
 document.addEventListener('keydown', function(event) {
   // Check if the pressed key's code is 81 (Q key)
   if (event.keyCode === 81) {
-    location.reload(); // Reload the page
+    var inputFields = document.querySelectorAll('input[type="text"]');
+    // Reset the values of each input field
+    inputFields.forEach(function (input) {
+        input.value = '';
+    });
   }
 });
