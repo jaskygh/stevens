@@ -19,7 +19,7 @@
       <div class="col-sm-2">
          <input autofocus type="number" class="form-control dynamic background-yellow" id="cp" onkeyup="numberChange()">
       </div>
-      <input type="radio" class="col-sm-1" onclick="targetChange()" name="targetNumber" id="radio-cp" value="cp"> 
+      <input type="radio" class="col-sm-1" onclick="targetChange()" name="targetNumber" id="radio-cp" value="cp" tabindex="-1"> 
    </div>
    <div class="form-group row">
       <label class="col-sm-2">Quantity</label>
@@ -38,9 +38,9 @@
       <div class="col-sm-2">
          <input type="number" class="form-control dynamic background-green" title="This number will be calculated after enter all other green boxes" id="rp" onkeyup="numberChange()" disabled="">
       </div>
-      <input type="radio" class="col-sm-1" id="radio-rp" onclick="targetChange()" checked name="targetNumber" value="rp">
+      <input type="radio" class="col-sm-1" id="radio-rp" onclick="targetChange()" checked name="targetNumber" value="rp" tabindex="-1">
       <div class="custom-control custom-radio">
-         <input type="radio" class="custom-control-input  col-sm-1" id="radio-rp" onclick="targetChange()" name="targetNumber" value="rp" disabled>
+         <input type="radio" class="custom-control-input  col-sm-1" id="radio-rp" onclick="targetChange()" name="targetNumber" value="rp" disabled tabindex="-1">
       </div>
    </div>
    <div class="form-group row">
@@ -54,7 +54,7 @@
       <div class="col-sm-2">
          <input type="number" class="form-control dynamic background-yellow" title="This number will be calculated after enter all other green boxes" id="gmpercentage" onkeyup="numberChange(value)">
       </div>
-      <input type="radio" class="col-sm-1" id="radio-gmpercentage" onclick="targetChange()" name="targetNumber" value="gmpercentage"> 
+      <input type="radio" class="col-sm-1" id="radio-gmpercentage" onclick="targetChange()" name="targetNumber" value="gmpercentage" tabindex="-1"> 
    </div>
 </div>
 <!-- partial -->
